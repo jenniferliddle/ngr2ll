@@ -16,14 +16,3 @@ You are welcome to re-use these scripts under a creative commons license,
 http://creativecommons.org/licenses/by/3.0/ without any warranty express or implied,
 provided solely that you retain this copyright notice and links.
 
-
-USAGE
-=====
-
-#include "ngr2ll.h"
-
-double lat, long;
-
-ngr2ll("TG5140913177",&lat,&lon);
-
-
