@@ -1,0 +1,14 @@
+language: c
+
+compiler: gcc
+
+deploy:
+  provider: releases
+  file:
+    - $DIST_FILE
+    - $SHA256_FILE
+  skip_cleanup: true
+  on:
+    tags: true
+    branch: master
+
